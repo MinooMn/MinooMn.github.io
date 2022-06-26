@@ -1,0 +1,670 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.button {
+  width: 85px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 6px;
+  color: white;
+}
+.sports.button {
+  background-color: limegreen;
+  border: solid limegreen;
+}
+.active.button {
+  background-color: red;
+  border: solid red;
+}
+.techno.button {
+  background-color: orchid;
+  border: solid orchid;
+}
+.business.button {
+  background-color: blue;
+  border: solid blue;
+}
+.health.button {
+  background-color: yellowgreen;
+  border: solid yellowgreen;
+  margin-right: 230px;
+}
+.gaming.button {
+  background-color: slateblue;
+  border: solid slateblue;
+}
+.science.button {
+  background-color: chocolate;
+  border: solid chocolate;
+}
+body {
+  font-family: Arial;
+}
+.header {
+  display: flex;
+  margin: 25px 90px;
+}
+.header .logo i {
+  font-size: 22px;
+  color: tomato;
+}
+.header .logo .name {
+  font-size: 26px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.header .navbar li {
+  display: inline-block;
+  margin-left: 25px;
+  font-weight: bold;
+}
+.header .navbar li select {
+  border: white;
+  font-weight: bold;
+}
+.header .navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+}
+.header .header-icons i {
+  margin-left: 8px;
+  font-size: 16px;
+}
+.header .header-icons .fa-facebook-f {
+  color: indigo;
+  font-size: 14px;
+}
+.header .header-icons .fa-google-plus-g {
+  color: mediumvioletred;
+}
+.header .header-icons .fa-behance {
+  color: mediumblue;
+}
+.header .navbar .label {
+  display: inherit;
+  padding-top: 4px;
+  text-align: center;
+  width: 42px;
+  height: 13px;
+  border-radius: 60px;
+  font-size: 9px;
+}
+.header .navbar .new.label {
+  color: white;
+  background-color: mediumblue;
+}
+.header .navbar .hot.label {
+  color: white;
+  background-color: red;
+}
+.header .navbar .now.label {
+  color: black;
+  background-color: yellow;
+}
+.pictures {
+  display: flex;
+  justify-content: center;
+}
+.pictures div {
+  border: 1px solid white;
+  padding: 20px 25px;
+  width: 375px;
+  height: 500px;
+}
+.pictures .first-pic {
+  background-image: url("images/pictures/pic1.jfif");
+  background-size: 100% 100%;
+  position: relative;
+}
+.pictures .second-pic {
+  background-image: url("images/pictures/pic2.jfif");
+  background-size: 100% 100%;
+  position: relative;
+}
+.pictures .third-pic {
+  background-image: url("images/pictures/pic3.jfif");
+  background-size: 100% 100%;
+  position: relative;
+}
+.pictures .fourth-pic {
+  background-image: url("images/pictures/pic4.jfif");
+  background-size: 100% 100%;
+  position: relative;
+}
+.pictures .button {
+  position: absolute;
+  bottom: 30%;
+}
+.pictures .quote {
+  position: absolute;
+  bottom: 15%;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+.pictures .name,
+.pictures .fa-clock,
+.pictures .date {
+  position: absolute;
+  bottom: 7%;
+  color: white;
+  font-size: small;
+}
+.pictures .fa-clock {
+  left: 30%;
+}
+.pictures .date {
+  left: 35%;
+}
+.businessToday .fst-row,
+.businessToday .sec-row {
+  display: flex;
+  justify-content: center;
+}
+.businessToday .fst-row div,
+.businessToday .sec-row div {
+  width: 400px;
+  height: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+}
+.businessToday h2 {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  font-size: 28px;
+}
+.businessToday h5 {
+  color: rgba(128, 128, 128, 0.6);
+  margin-bottom: 30px;
+  margin-left: 100px;
+  font-size: 14px;
+}
+.businessToday .post {
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.businessToday .fst-row .fst-pic {
+  background-image: url("images/businessToday/pic11.jpeg");
+}
+.businessToday .fst-row .sec-pic {
+  background-image: url("images/businessToday/pic12.jfif");
+}
+.businessToday .fst-row .third-pic {
+  background-image: url("images/businessToday/pic13.jpg");
+}
+.businessToday .sec-row .fst-pic {
+  background-image: url("images/businessToday/pic21.jpg");
+}
+.businessToday .sec-row .sec-pic {
+  background-image: url("images/businessToday/pic22.png");
+}
+.businessToday .sec-row .third-pic {
+  background-image: url("images/businessToday/pic23.jpg");
+}
+.businessToday .quote {
+  position: absolute;
+  bottom: 20%;
+  font-size: 22px;
+  font-weight: bold;
+}
+.businessToday .button {
+  margin: 22px 22px;
+}
+.businessToday .name,
+.businessToday .fa-clock,
+.businessToday .date {
+  position: absolute;
+  bottom: 11%;
+  color: rgba(128, 128, 128);
+  font-size: small;
+}
+.businessToday .name {
+  left: 0;
+}
+.businessToday .fa-clock {
+  left: 22%;
+}
+.businessToday .date {
+  left: 27%;
+}
+.businessToday .sec-row .fst-pic .circle {
+  position: absolute;
+  text-align: center;
+  top: 20px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: darkgray;
+}
+.businessToday .sec-row .fst-pic .fa-volume-up {
+  margin-top: 12px;
+  color: rgb(59, 59, 59);
+  font-size: 18px;
+}
+.editorsChoice {
+  background-color: cornsilk;
+  margin-top: 40px;
+  margin-bottom: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.editorsChoice h2 {
+  margin-left: 110px;
+  margin-bottom: 35px;
+  font-size: 28px;
+}
+.editorsChoice .content {
+  display: flex;
+  justify-content: left;
+}
+.editorsChoice .content .big-pic {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/editorsChoice/big-pic.png");
+  background-size: 100% 100%;
+  width: 850px;
+  height: 550px;
+  margin-right: 50px;
+  margin-left: 110px;
+}
+.editorsChoice .content .big-pic .active {
+  width: 80px;
+  height: 26px;
+  margin-top: 40%;
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+.editorsChoice .content .big-pic .quote {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.profile {
+  display: flex;
+}
+.profile img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.profile .name,
+.profile .fa-clock,
+.profile .date {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: small;
+  padding-top: 8px;
+}
+.profile .name {
+  margin-right: 10px;
+}
+.profile .fa-clock {
+  margin-right: 5px;
+}
+.editorsChoice .content .big-pic .profile {
+  margin-left: 40px;
+}
+.editorsChoice .content .small-pics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.editorsChoice .content .small-pics .pic {
+  background-size: 25% 100%;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 110px;
+  margin-bottom: 37px;
+}
+.editorsChoice .content .small-pics .fst-pic {
+  background-image: url("images/editorsChoice/small-pic1.jfif");
+}
+.editorsChoice .content .small-pics .sec-pic {
+  background-image: url("images/editorsChoice/small-pic2.jfif");
+}
+.editorsChoice .content .small-pics .third-pic {
+  background-image: url("images/editorsChoice/small-pic3.jfif");
+}
+.editorsChoice .content .small-pics .fourth-pic {
+  background-image: url("images/editorsChoice/small-pic4.jpg");
+}
+.editorsChoice .content .small-pics .button {
+  margin-left: 140px;
+  margin-bottom: 10px;
+  width: 80px;
+  height: 26px;
+}
+.editorsChoice .content .small-pics .quote {
+  margin-left: 140px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.editorsChoice .content .small-pics .fa-clock {
+  margin-left: 140px;
+  color: rgba(128, 128, 128);
+  font-size: small;
+}
+.editorsChoice .content .small-pics .date {
+  color: rgba(128, 128, 128);
+  font-size: small;
+}
+.moreFromBlog .content {
+  display: flex;
+  justify-content: center;
+}
+.moreFromBlog .content .left-div,
+.moreFromBlog .content .mid-div,
+.moreFromBlog .content .right-div {
+  width: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.moreFromBlog .content .mid-div {
+  padding-top: 89px;
+}
+.moreFromBlog .content .left-div .post,
+.moreFromBlog .content .mid-div .post {
+  margin-bottom: 58px;
+}
+.moreFromBlog .content .left-div h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+.moreFromBlog .content .left-div h5 {
+  color: rgba(128, 128, 128, 0.6);
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.moreFromBlog .content .profile {
+  margin-bottom: 20px;
+}
+.moreFromBlog .content .profile .name,
+.moreFromBlog .content .profile .fa-clock,
+.moreFromBlog .content .profile .date {
+  color: gray !important;
+}
+.moreFromBlog .content .left-div .pic,
+.moreFromBlog .content .mid-div .pic {
+  background-size: 100% 100%;
+  height: 250px;
+  margin-bottom: 23px;
+  position: relative;
+}
+.moreFromBlog .content .left-div .post1 .pic {
+  background-image: url("images/moreFromBlog/pic11.jpg");
+}
+.moreFromBlog .content .left-div .post2 .pic {
+  background-image: url("images/moreFromBlog/pic21.jpg");
+}
+.moreFromBlog .content .left-div .post3 .pic {
+  background-image: url("images/moreFromBlog/pic31.jpg");
+}
+.moreFromBlog .content .left-div .post4 .pic {
+  background-image: url("images/moreFromBlog/pic41.jpg");
+}
+.moreFromBlog .content .mid-div .post1 .pic {
+  background-image: url("images/moreFromBlog/pic12.png");
+}
+.moreFromBlog .content .mid-div .post2 .pic {
+  background-image: url("images/moreFromBlog/pic22.jpg");
+}
+.moreFromBlog .content .mid-div .post3 .pic {
+  background-image: url("images/moreFromBlog/pic32.jpg");
+}
+.moreFromBlog .content .mid-div .post4 .pic {
+  background-image: url("images/moreFromBlog/pic42.jpg");
+}
+.moreFromBlog .content .left-div .pic .button,
+.moreFromBlog .content .mid-div .pic .button {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.moreFromBlog .content .left-div .quote,
+.moreFromBlog .content .mid-div .quote {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.moreFromBlog .content .left-div .text,
+.moreFromBlog .content .mid-div .text {
+  color: rgb(140, 140, 140);
+}
+.moreFromBlog .content .right-div .social-media {
+  display: flex;
+  margin-bottom: 57px;
+}
+.moreFromBlog .content .right-div .social-media div {
+  text-align: center;
+  padding: 12px 8px;
+  width: 100px;
+  margin-right: 3px;
+  background-color: rgba(192, 192, 192, 0.15);
+}
+.moreFromBlog .content .right-div .social-media i {
+  font-size: 21px;
+  margin-bottom: 11px;
+}
+.moreFromBlog .content .right-div .social-media .fa-facebook-f {
+  color: rgba(71, 61, 139, 0.8);
+}
+.moreFromBlog .content .right-div .social-media .fa-instagram {
+  color: darkcyan;
+}
+.moreFromBlog .content .right-div .social-media .fa-pinterest {
+  color: tomato;
+}
+.moreFromBlog .content .right-div .social-media .fa-youtube {
+  color: crimson;
+}
+.moreFromBlog .content .right-div .social-media .number {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+.moreFromBlog .content .right-div .social-media span {
+  font-size: 13px;
+  font-weight: 550;
+}
+.moreFromBlog .content .right-div .dark-pics {
+  margin-bottom: 50px;
+}
+.moreFromBlog .content .right-div .dark-pics div {
+  position: relative;
+  height: 67px;
+  margin-bottom: 10px;
+}
+.moreFromBlog .content .right-div .dark-pics .pic1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/moreFromBlog/dark-pic1.jpg");
+  background-size: 100% 100%;
+}
+.moreFromBlog .content .right-div .dark-pics .pic2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/moreFromBlog/dark-pic2.jpg");
+  background-size: 100% 100%;
+}
+.moreFromBlog .content .right-div .dark-pics .pic3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/moreFromBlog/dark-pic3.jpg");
+  background-size: 100% 100%;
+}
+.moreFromBlog .content .right-div .dark-pics span {
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.moreFromBlog .content .right-div .dark-pics .pic1 .number,
+.moreFromBlog .content .right-div .dark-pics .pic2 .number {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  width: 40px;
+  height: 32px;
+  border-radius: 45%;
+  background-color: white;
+}
+.moreFromBlog .content .right-div .dark-pics .pic3 .number {
+  position: absolute;
+  right: 23px;
+  top: 18px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: white;
+}
+.moreFromBlog .content .right-div .dark-pics .number span {
+  position: absolute;
+  color: black;
+  left: 10px;
+  top: 7px;
+}
+.moreFromBlog .content .right-div .recent-posts h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.moreFromBlog .content .right-div .recent-posts .posts {
+  border-top: 2px solid lightgray;
+  padding-top: 25px;
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post,
+.footer .footer-main .recentPosts .post {
+  background-size: 25% 100%;
+  background-position-x: 88%;
+  background-repeat: no-repeat;
+  width: 440px;
+  height: 110px;
+  margin-bottom: 30px;
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post .button,
+.footer .footer-main .recentPosts .post .button {
+  margin-bottom: 18px;
+  height: 28px;
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post p,
+.footer .footer-main .recentPosts .post p {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 8px;
+  width: 50%;
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post .fa-clock,
+.moreFromBlog .content .right-div .recent-posts .posts .post .date,
+.footer .footer-main .recentPosts .post .fa-clock,
+.footer .footer-main .recentPosts .post .date {
+  color: gray;
+  font-size: 12px;
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post1,
+.footer .footer-main .recentPosts .post1 {
+  background-image: url("images/moreFromBlog/recent-post1.jpg");
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post2,
+.footer .footer-main .recentPosts .post2 {
+  background-image: url("images/moreFromBlog/recent-post2.jpg");
+}
+.moreFromBlog .content .right-div .recent-posts .posts .post3,
+.footer .footer-main .recentPosts .post3 {
+  background-image: url("images/moreFromBlog/recent-post3.jfif");
+}
+.moreFromBlog .button-container {
+  position: relative;
+  margin-bottom: 130px;
+}
+.moreFromBlog .button-container .load-more-btn {
+  position: absolute;
+  left: 30%;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(52, 52, 52);
+}
+.moreFromBlog .button-container .load-more-btn a {
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer .footer-main {
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+.footer .footer-main .aboutUs,
+.footer .footer-main .recentPosts,
+.footer .footer-main .categories {
+  width: 400px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.footer .footer-main h3 {
+  margin-bottom: 25px;
+}
+.footer .footer-main .aboutUs p {
+  color: rgb(161, 161, 161);
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.footer .footer-main .aboutUs .icons .icon {
+  position: relative;
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.footer .footer-main .aboutUs .icons .icon i {
+  position: absolute;
+  top: 30%;
+}
+.footer .footer-main .categories h3 {
+  margin-bottom: 30px;
+}
+.footer .footer-main .categories .category {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgb(68, 68, 68);
+  padding-bottom: 1.5%;
+  margin-bottom: 12px;
+}
+.footer .footer-main .categories .category .number {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: green;
+}
+.footer .footer-main .categories .category .number span {
+  position: absolute;
+  top: 6.5px;
+}
+.footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px 40px 110px;
+  border-top: 0.5px solid rgb(68, 68, 68);
+}
+.footer .footer-bottom .left-side,
+.footer .footer-bottom .right-side {
+  font-size: small;
+  color: rgb(161, 161, 161);
+}
+.footer .footer-bottom .right-side a {
+  margin-left: 10px;
+  color: rgb(161, 161, 161);
+  text-decoration: none;
+}
