@@ -114,22 +114,22 @@ body {
   height: 500px;
 }
 .pictures .first-pic {
-  background-image: url("images/pictures/pic1.jfif");
+  background-image: url("assets/images/pictures/pic1.jfif");
   background-size: 100% 100%;
   position: relative;
 }
 .pictures .second-pic {
-  background-image: url("images/pictures/pic2.jfif");
+  background-image: url("assets/images/pictures/pic2.jfif");
   background-size: 100% 100%;
   position: relative;
 }
 .pictures .third-pic {
-  background-image: url("images/pictures/pic3.jfif");
+  background-image: url("assets/images/pictures/pic3.jfif");
   background-size: 100% 100%;
   position: relative;
 }
 .pictures .fourth-pic {
-  background-image: url("images/pictures/pic4.jfif");
+  background-image: url("assets/images/pictures/pic4.jfif");
   background-size: 100% 100%;
   position: relative;
 }
@@ -189,22 +189,22 @@ body {
   position: relative;
 }
 .businessToday .fst-row .fst-pic {
-  background-image: url("images/businessToday/pic11.jpeg");
+  background-image: url("assets/images/businessToday/pic11.jpeg");
 }
 .businessToday .fst-row .sec-pic {
-  background-image: url("images/businessToday/pic12.jfif");
+  background-image: url("assets/images/businessToday/pic12.jfif");
 }
 .businessToday .fst-row .third-pic {
-  background-image: url("images/businessToday/pic13.jpg");
+  background-image: url("assets/images/businessToday/pic13.jpg");
 }
 .businessToday .sec-row .fst-pic {
-  background-image: url("images/businessToday/pic21.jpg");
+  background-image: url("assets/images/businessToday/pic21.jpg");
 }
 .businessToday .sec-row .sec-pic {
-  background-image: url("images/businessToday/pic22.png");
+  background-image: url("assets/images/businessToday/pic22.png");
 }
 .businessToday .sec-row .third-pic {
-  background-image: url("images/businessToday/pic23.jpg");
+  background-image: url("assets/images/businessToday/pic23.jpg");
 }
 .businessToday .quote {
   position: absolute;
@@ -265,7 +265,7 @@ body {
 }
 .editorsChoice .content .big-pic {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/editorsChoice/big-pic.png");
+    url("assets/images/editorsChoice/big-pic.png");
   background-size: 100% 100%;
   width: 850px;
   height: 550px;
@@ -323,16 +323,16 @@ body {
   margin-bottom: 37px;
 }
 .editorsChoice .content .small-pics .fst-pic {
-  background-image: url("images/editorsChoice/small-pic1.jfif");
+  background-image: url("assets/images/editorsChoice/small-pic1.jfif");
 }
 .editorsChoice .content .small-pics .sec-pic {
-  background-image: url("images/editorsChoice/small-pic2.jfif");
+  background-image: url("assets/images/editorsChoice/small-pic2.jfif");
 }
 .editorsChoice .content .small-pics .third-pic {
-  background-image: url("images/editorsChoice/small-pic3.jfif");
+  background-image: url("assets/images/editorsChoice/small-pic3.jfif");
 }
 .editorsChoice .content .small-pics .fourth-pic {
-  background-image: url("images/editorsChoice/small-pic4.jpg");
+  background-image: url("assets/images/editorsChoice/small-pic4.jpg");
 }
 .editorsChoice .content .small-pics .button {
   margin-left: 140px;
@@ -398,28 +398,28 @@ body {
   position: relative;
 }
 .moreFromBlog .content .left-div .post1 .pic {
-  background-image: url("images/moreFromBlog/pic11.jpg");
+  background-image: url("assets/images/moreFromBlog/pic11.jpg");
 }
 .moreFromBlog .content .left-div .post2 .pic {
-  background-image: url("images/moreFromBlog/pic21.jpg");
+  background-image: url("assets/images/moreFromBlog/pic21.jpg");
 }
 .moreFromBlog .content .left-div .post3 .pic {
-  background-image: url("images/moreFromBlog/pic31.jpg");
+  background-image: url("assets/images/moreFromBlog/pic31.jpg");
 }
 .moreFromBlog .content .left-div .post4 .pic {
-  background-image: url("images/moreFromBlog/pic41.jpg");
+  background-image: url("assets/images/moreFromBlog/pic41.jpg");
 }
 .moreFromBlog .content .mid-div .post1 .pic {
-  background-image: url("images/moreFromBlog/pic12.png");
+  background-image: url("assets/images/moreFromBlog/pic12.png");
 }
 .moreFromBlog .content .mid-div .post2 .pic {
-  background-image: url("images/moreFromBlog/pic22.jpg");
+  background-image: url("assets/images/moreFromBlog/pic22.jpg");
 }
 .moreFromBlog .content .mid-div .post3 .pic {
-  background-image: url("images/moreFromBlog/pic32.jpg");
+  background-image: url("assets/images/moreFromBlog/pic32.jpg");
 }
 .moreFromBlog .content .mid-div .post4 .pic {
-  background-image: url("images/moreFromBlog/pic42.jpg");
+  background-image: url("assets/images/moreFromBlog/pic42.jpg");
 }
 .moreFromBlog .content .left-div .pic .button,
 .moreFromBlog .content .mid-div .pic .button {
@@ -483,17 +483,17 @@ body {
 }
 .moreFromBlog .content .right-div .dark-pics .pic1 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/moreFromBlog/dark-pic1.jpg");
+    url("assets/images/moreFromBlog/dark-pic1.jpg");
   background-size: 100% 100%;
 }
 .moreFromBlog .content .right-div .dark-pics .pic2 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/moreFromBlog/dark-pic2.jpg");
+    url("assets/images/moreFromBlog/dark-pic2.jpg");
   background-size: 100% 100%;
 }
 .moreFromBlog .content .right-div .dark-pics .pic3 {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("images/moreFromBlog/dark-pic3.jpg");
+    url("assets/images/moreFromBlog/dark-pic3.jpg");
   background-size: 100% 100%;
 }
 .moreFromBlog .content .right-div .dark-pics span {
@@ -566,15 +566,15 @@ body {
 }
 .moreFromBlog .content .right-div .recent-posts .posts .post1,
 .footer .footer-main .recentPosts .post1 {
-  background-image: url("images/moreFromBlog/recent-post1.jpg");
+  background-image: url("assets/images/moreFromBlog/recent-post1.jpg");
 }
 .moreFromBlog .content .right-div .recent-posts .posts .post2,
 .footer .footer-main .recentPosts .post2 {
-  background-image: url("images/moreFromBlog/recent-post2.jpg");
+  background-image: url("assets/images/moreFromBlog/recent-post2.jpg");
 }
 .moreFromBlog .content .right-div .recent-posts .posts .post3,
 .footer .footer-main .recentPosts .post3 {
-  background-image: url("images/moreFromBlog/recent-post3.jfif");
+  background-image: url("assets/images/moreFromBlog/recent-post3.jfif");
 }
 .moreFromBlog .button-container {
   position: relative;
