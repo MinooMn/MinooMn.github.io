@@ -1,1 +1,1 @@
-# MinooMn.github.io
+Creating homepage of a website using html & scc
