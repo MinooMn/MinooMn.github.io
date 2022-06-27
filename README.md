@@ -1,1 +1,1 @@
-Creating homepage of a website using html & scc
+Creating homepage of a website using html & css
